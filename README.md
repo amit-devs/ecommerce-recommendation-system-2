@@ -8,7 +8,6 @@ Responsible for:
 - Content Based Recommender
 - KNN Collaborative Filtering
 - Hybrid Recommender
-- Evaluation Pipeline
 
 **Shouri**
 
