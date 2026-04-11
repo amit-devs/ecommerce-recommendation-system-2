@@ -57,3 +57,16 @@ The following machine learning algorithms are implemented:
 
 ---
 
+## 👥 Project Contributors
+
+### Amit
+
+Responsible for:
+
+* Decision Tree
+* KNN
+* Logistic Regression
+
+
+
+This project is created for academic and learning purposes to understand different machine learning algorithms and their performance.
