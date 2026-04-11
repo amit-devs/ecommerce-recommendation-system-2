@@ -67,6 +67,24 @@ Responsible for:
 * KNN
 * Logistic Regression
 
+### Shouri
 
+Responsible for:
+
+* Naive Bayes
+* Random Forest
+* SVM
+
+---
+
+## 🚀 How to Run
+
+1. Open any `.ipynb` file in Google Colab
+2. Upload the dataset
+3. Run all cells step by step
+
+---
+
+## 📌 Note
 
 This project is created for academic and learning purposes to understand different machine learning algorithms and their performance.
