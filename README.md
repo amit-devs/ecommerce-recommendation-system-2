@@ -29,4 +29,18 @@ The following machine learning algorithms are implemented:
 
 ---
 
+## 📊 What This Project Does
+
+* Loads and preprocesses dataset
+* Splits data into training and testing sets
+* Trains multiple ML models
+* Evaluates models using performance metrics such as:
+
+  * Accuracy
+  * Precision
+  * Recall
+  * F1-Score
+
+---
+
 
