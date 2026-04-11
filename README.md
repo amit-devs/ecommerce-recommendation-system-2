@@ -43,4 +43,17 @@ The following machine learning algorithms are implemented:
 
 ---
 
+## 📁 Project Structure
+
+```
+├── README.md
+├── _Decision_Tree.ipynb
+├── _KNN.ipynb
+├── _Logistic_Regression.ipynb
+├── _Naive_Bayes.ipynb
+├── _Random_Forest.ipynb
+├── _svm.ipynb
+```
+
+---
 
