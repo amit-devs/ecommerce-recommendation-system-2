@@ -1,90 +1,85 @@
-# Machine Learning Models Collection
+# 🛒 E-commerce Recommendation System
 
-This repository contains implementations of various Machine Learning algorithms built and tested using Google Colab.
-These models are trained and evaluated on datasets to understand their performance and behavior.
-
----
-
-## 📌 Models Included
-
-The following machine learning algorithms are implemented:
-
-* Decision Tree
-* K-Nearest Neighbors (KNN)
-* Logistic Regression
-* Naive Bayes
-* Random Forest
-* Support Vector Machine (SVM)
+A machine learning project that predicts whether a user will like a product and recommends products based on user input.
 
 ---
 
-## ⚙️ Technologies Used
+## 🚀 About the Project
+This project uses multiple ML models to classify user preference (liked / not liked) using product data such as price, sentiment, and user engagement.
 
-* Python
-* NumPy
-* Pandas
-* Matplotlib / Seaborn
-* Scikit-learn
-* Google Colab
+It also includes a simple rule-based recommendation system.
 
 ---
 
-## 📊 What This Project Does
-
-* Loads and preprocesses dataset
-* Splits data into training and testing sets
-* Trains multiple ML models
-* Evaluates models using performance metrics such as:
-
-  * Accuracy
-  * Precision
-  * Recall
-  * F1-Score
+## 🧠 Models Used
+- Logistic Regression  
+- KNN  
+- Decision Tree  
+- Random Forest  
+- Naive Bayes  
+- SVM  
 
 ---
 
-## 📁 Project Structure
+## 📊 Dataset
+- Source: Kaggle (Amazon Product & Review Dataset)
+- Processed file: `final_dataset_v3.csv`
 
-```
-├── README.md
-├── _Decision_Tree.ipynb
-├── _KNN.ipynb
-├── _Logistic_Regression.ipynb
-├── _Naive_Bayes.ipynb
-├── _Random_Forest.ipynb
-├── _svm.ipynb
-```
+**Features:**
+- price_value  
+- helpfulVoteCount  
+- sentiment_score  
 
----
-
-## 👥 Project Contributors
-
-### Amit
-
-Responsible for:
-
-* Decision Tree
-* KNN
-* Logistic Regression
-
-### Shouri
-
-Responsible for:
-
-* Naive Bayes
-* Random Forest
-* SVM
+**Target:**
+- liked (0 / 1)
 
 ---
 
-## 🚀 How to Run
-
-1. Open any `.ipynb` file in Google Colab
-2. Upload the dataset
-3. Run all cells step by step
+## ⚙️ Workflow
+1. Data preprocessing  
+2. Feature selection  
+3. Model training  
+4. Model evaluation  
+5. Recommendation system  
 
 ---
 
-## 📌 Note
+## 🛒 Recommendation System
+- Input: product keyword  
+- Filters products by title  
+- Sorts using rating & helpful votes  
+- Outputs top 5 products  
 
-This project is created for academic and learning purposes to understand different machine learning algorithms and their performance.
+👉 Type: Rule-based  
+
+---
+
+## 📈 Results
+- Best Models: Random Forest & SVM  
+- Accuracy: ~98%  
+
+---
+
+## 📁 Files
+- ML model notebooks (`.ipynb`)
+- Final dataset (`final_dataset_v3.csv`)
+
+---
+
+## 👨‍💻 Contributors
+**Amit**
+- Decision Tree, KNN, Logistic Regression  
+
+**Shouri**
+- Naive Bayes, Random Forest, SVM  
+
+---
+
+## 🔮 Future Improvements
+- ML-based recommendation system  
+- Larger dataset  
+- Web/app deployment  
+
+---
+
+⭐ This project is for learning and academic purposes.
