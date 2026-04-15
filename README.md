@@ -7,7 +7,7 @@ A machine learning project that predicts whether a user will like a product and 
 ## 🚀 About the Project
 This project uses multiple ML models to classify user preference (liked / not liked) using product data such as price, sentiment, and user engagement.
 
-It also includes a simple rule-based recommendation system.
+It also includes a rule-based recommendation system.
 
 ---
 
